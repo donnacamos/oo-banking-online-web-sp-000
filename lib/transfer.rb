@@ -29,7 +29,7 @@ end
     if @status == "complete" 
       @sender.balance -= @amount 
       @receiver.balance += @amount 
-      @status = "Your balance is #{@balance}."
+      @status = "reverse"  
     end 
   end 
 end
